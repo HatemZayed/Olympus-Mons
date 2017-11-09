@@ -1,0 +1,273 @@
+p {
+	font-family: 'Josefin Sans';
+	font-weight: 200;
+	font-size: 14px;
+	line-height: 2em;
+	letter-spacing: .06em;
+	color: grey;
+}
+
+h1 {
+	font-family: 'Josefin Sans';
+	/*font-family: 'Play', sans-serif;*/
+	font-weight: 300;
+	/*font-family: 'Anton';*/
+}
+
+h2 {
+	font-family: 'Play', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+h3 {
+	/*font-family: 'Helvetica';*/
+	font-family: 'Josefin Sans';
+	font-size: 10px;
+}
+
+h4 {
+	font-family: 'Play', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h5 {
+	color: #fff;
+	font-family: 'Josefin Sans';
+	font-size: 20px;
+}
+
+body {
+	font-family: 'Josefin Sans';
+	font-weight: 200;
+/*	background-color: #e0f4f8;
+*/}
+
+.image {
+	position: relative;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 0.5px 1px #d6d6d6;
+}
+
+.image h5 {
+	position: absolute; 
+  	top: 60px; 
+   	left: 0; 
+   	width: 100%;
+}
+
+.image {
+	-webkit-transition: all 0.75s ease;
+}
+
+.image:hover {
+	-webkit-transform: scale(1.05);
+}
+
+@media all and (max-width: 767px) {
+
+   .image h5 {
+      font-size: 60px;
+      margin: auto auto auto auto;
+   }
+}	
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+   .image h5 {
+      font-size: 40px;
+      margin: auto;
+   }
+}	
+	
+@media all and (min-width: 992px) and (max-width: 1199px) {
+
+   .image h5 {
+      font-size: 20px;
+      margin: auto;
+   }
+}	
+
+.button-font {
+	/*border-radius: 50%;*/
+	font-family: 'Josefin Sans';
+	font-weight: 500;
+	font-size: 14px;
+	padding: 50px;
+	/*border: 1px solid;*/
+/*	text-shadow: 1px 1px 3px rgba(0, 0, 255, 0.3); 
+*/}
+
+.arrow-down {
+	margin: 0 auto;
+	width: 0; 
+	height: 0; 
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-top: 100px solid #fff;
+}
+
+.styled {
+	width: 100%;
+	min-height: 100px;
+	background-color: #f7f7f7;
+	border-radius: 5px;
+	color: #d6d6d6;
+	box-shadow: inset 0px 0.5px 1px #d6d6d6;
+}
+
+.center {
+	text-align: center;
+}
+
+.jumbotron {
+	margin-top: 10px;
+	padding-top: 60px;
+	background-image: url(mars.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 750px;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-size: 7em;
+	line-height: 1em;
+	margin-bottom: 80px;
+	text-shadow: 0px 0px 3px #6b320e;
+}
+
+.jumbotron p {
+	color: #fff;
+	text-shadow: .5px .5px 2px black;
+}
+
+.front-column {
+	padding: 0 20px;
+	margin-top: 25px;
+}
+
+.front-column p {
+	text-align: justify;
+	text-align-last: center;
+}
+
+.aboutUs {
+	text-align: justify;
+	text-align-last: center;
+	margin-bottom: 150px;
+	margin-top: 100px;
+}
+
+.aboutUsTag h4 {
+	color: #fff;
+	text-shadow: 0px 0px 3px #6b320e;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.begin {
+	margin-top: 70px;
+}
+
+.submit {
+	margin-top: 50px;
+}
+
+.submit button {
+	background: #E05A26;
+}
+
+.main-title {
+	margin-top: 80px;
+}
+
+.navbar-default {
+    background-color: darkorange;
+    border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}    
+
+.form {
+	max-width: 600px;
+	margin: 80px auto 20px auto;
+} 
+
+.formTitle {
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.smallPrint {
+	max-width: 300px;
+	margin: 0 auto;
+	text-align: justify;
+	text-align-last: center;
+}
+
+#footer {
+	padding-top: 20px;	
+   	position: absolute;
+   	bottom: 100;
+   	width: 100%;
+   	height: 200px; 
+   	background: darkorange;
+   	/*margin-top: 50px;*/
+}
+
+.footerSmallPrint {
+	text-align: justify;
+	text-align-last: center;
+}
+
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+
+#button:before {
+    background-color: blue;
+    content: "";
+    display: block;
+}
+
+#button:hover:before {
+    background-color: red;
+}
+
+/*.button-font:hover { 
+	border-color: orange;
+}*/
+
